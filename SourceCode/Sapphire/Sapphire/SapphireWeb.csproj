@@ -121,6 +121,11 @@
     <Content Include="Content\img\320x320.png" />
     <Content Include="Content\img\80x80.png" />
     <Content Include="Content\img\avatar.png" />
+    <Content Include="Content\img\backgrounds\news1.jpg" />
+    <Content Include="Content\img\backgrounds\news2.jpg" />
+    <Content Include="Content\img\backgrounds\news3.JPG" />
+    <Content Include="Content\img\backgrounds\news4.JPG" />
+    <Content Include="Content\img\backgrounds\news5.jpg" />
     <Content Include="Content\img\imgl.gif" />
     <Content Include="Content\img\imgr.gif" />
     <Content Include="Content\img\logo.png" />
@@ -169,6 +174,9 @@
     <Content Include="Views\Shared\footer.cshtml" />
     <Content Include="Views\Shared\AlertPopup.cshtml" />
     <Content Include="Views\Shared\header.cshtml" />
+    <Content Include="Views\Home\Course.cshtml" />
+    <Content Include="Views\News\Index.cshtml" />
+    <Content Include="Views\News\Details.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -180,6 +188,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -188,7 +197,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\fonts\" />
-    <Folder Include="Content\img\backgrounds\" />
     <Folder Include="Content\img\gallery\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\ckeditor\" />

@@ -2,15 +2,15 @@
 
 namespace Sapphire.Controllers
 {
-    public class HomeController : Controller
+    public class NewsController : Controller
     {
-        // GET: Home
+        // GET: News
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Course()
+        public ActionResult Details()
         {
             return View();
         }

@@ -1,15 +1,15 @@
 ﻿<!-- Top Background Image Wrapper -->
-<div class="bgded" style="background-image:url('Content/img/backgrounds/main-bg.jpg'); height: 410px;">
+<div class="bgded" style="background-image:url('../Content/img/backgrounds/main-bg.jpg'); height: 410px;">
     <div class="wrapper overlay">
         <header id="header" class="hoc clear">
-            <nav id="mainav" class="clear" style="width: 900px; main-right: 45px">
+            <nav id="mainav" class="clear" style="width: 900px; margin-right: 45px">
                 <ul class="clear">
-                    <li class="active"><a href="index.html">Trang chủ</a></li>
+                    <li class="active"><a href="@Url.Action("Index","Home")">Trang chủ</a></li>
                     <li><a href="#">Giới thiệu về Sapphire</a></li>
                     <li>
                         <a class="drop" href="#">Các khóa học</a>
                         <ul>
-                            <li><a href="#">IELTS</a></li>
+                            <li><a href="@Url.Action("Course","Home")">IELTS</a></li>
                             <li><a href="#">Toeic</a></li>
                             <li>
                                 <a class="drop" href="#">Giao tiếp</a>
@@ -23,7 +23,7 @@
                     <li>
                         <a class="drop" href="#">Tin tức</a>
                         <ul>
-                            <li><a href="pages/gallery.html">Tin tức & sự kiện</a></li>
+                            <li><a href="@Url.Action("Index","News")">Tin tức & sự kiện</a></li>
                             <li><a href="pages/full-width.html">Ưu đãi</a></li>
                             <li><a href="pages/sidebar-left.html">Thư viện hình ảnh</a></li>
                         </ul>
@@ -36,13 +36,13 @@
                         </ul>
                     </li>
                     <li><a href="#">Liên Hệ</a></li>
-                </ul>                
+                </ul>
             </nav>
-            <div id="logo">                
+            <div id="logo">
                 <h1>
-                    <img class="ico" src="~/Content/img/backgrounds/main1.ico" style="height: 45px; margin-right: 10px; margin-bottom: 4px;">
+                    <img class="ico" src="../Content/img/backgrounds/main1.ico" style="height: 45px; margin-right: 10px; margin-bottom: 4px;">
                     <a href="index.html">Sapphire</a>
-                </h1>                
+                </h1>
             </div>
         </header>
     </div>
