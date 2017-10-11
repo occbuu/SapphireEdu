@@ -126,9 +126,12 @@
     <Content Include="Content\img\backgrounds\news3.JPG" />
     <Content Include="Content\img\backgrounds\news4.JPG" />
     <Content Include="Content\img\backgrounds\news5.jpg" />
+    <Content Include="Content\img\Fax_Machine-64.png" />
+    <Content Include="Content\img\seo3-22-64.png" />
     <Content Include="Content\img\imgl.gif" />
     <Content Include="Content\img\imgr.gif" />
     <Content Include="Content\img\logo.png" />
+    <Content Include="Content\img\Speech_Bubbles-64.png" />
     <Content Include="Content\layout.css" />
     <Content Include="Content\style1.css" />
     <Content Include="packages.config" />
@@ -177,6 +180,7 @@
     <Content Include="Views\Home\Course.cshtml" />
     <Content Include="Views\News\Index.cshtml" />
     <Content Include="Views\News\Details.cshtml" />
+    <Content Include="Views\Contact\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -187,6 +191,7 @@
   <ItemGroup>
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
