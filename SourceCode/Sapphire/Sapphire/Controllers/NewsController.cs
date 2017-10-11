@@ -14,5 +14,15 @@ namespace Sapphire.Controllers
         {
             return View();
         }
+
+        public ActionResult ImageLibrary()
+        {
+            return View();
+        }
+
+        public ActionResult DetailImageLibrary()
+        {
+            return View();
+        }
     }
 }
