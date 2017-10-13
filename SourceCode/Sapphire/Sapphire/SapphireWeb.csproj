@@ -121,6 +121,12 @@
     <Content Include="Content\img\320x320.png" />
     <Content Include="Content\img\80x80.png" />
     <Content Include="Content\img\avatar.png" />
+    <Content Include="Content\img\backgrounds\blog1.jpg" />
+    <Content Include="Content\img\backgrounds\blog2.jpg" />
+    <Content Include="Content\img\backgrounds\blog3.jpg" />
+    <Content Include="Content\img\backgrounds\blog4.jpg" />
+    <Content Include="Content\img\backgrounds\blog5.jpg" />
+    <Content Include="Content\img\backgrounds\blog6.jpg" />
     <Content Include="Content\img\backgrounds\news1.jpg" />
     <Content Include="Content\img\backgrounds\news2.jpg" />
     <Content Include="Content\img\backgrounds\news3.JPG" />
@@ -183,6 +189,8 @@
     <Content Include="Views\News\ImageLibrary.cshtml" />
     <Content Include="Views\News\DetailImageLibrary.cshtml" />
     <Content Include="Views\Contact\Index.cshtml" />
+    <Content Include="Views\News\Blog.cshtml" />
+    <Content Include="Views\News\DetailBlog.cshtml" />
     <Content Include="Views\About\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

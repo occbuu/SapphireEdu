@@ -24,5 +24,15 @@ namespace Sapphire.Controllers
         {
             return View();
         }
+
+        public ActionResult Blog()
+        {
+            return View();
+        }
+
+        public ActionResult DetailBlog()
+        {
+            return View();
+        }
     }
 }

@@ -1,0 +1,133 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+}
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav" style="font-size:18px">
+            <li><a href="#" class="sub-menu">Lợi ích của tiếng Anh</a></li>
+            <li><a href="#">Mẹo học tiếng Anh hiệu quả</a></li>
+            <li><a href="#">Câu chuyện cảm hứng</a></li>
+            <li><a href="#">Góc phụ huynh</a></li>
+            <li><a href="#">Góc giải trí</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-sm-9 blog-left">
+        <h1 style="color:red; font-weight:bold; font-size:30px;text-align:center">Lợi ích của tiếng Anh</h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"><img src="~/Content/img/backgrounds/blog1.jpg" /></a>
+                <br /><br />
+                <h2 class="blog-title"><a href="@Url.Action("DetailBlog","News")"> Điều gì khiến người lớn PHẢI học tiếng Anh?</a></h2>
+                <span class="blog-brief">Tiếng anh giúp người lớn chinh phục nhiều mục tiêu trong cuộc sống.</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"><img src="~/Content/img/backgrounds/blog2.jpg" /></a>
+                <br /><br />
+                <h2 class="blog-title"> <a href="@Url.Action("DetailBlog","News")">Vì sao trẻ cần học tiếng Anh từ những năm đầu đời?</a></h2>
+                <span class="blog-brief">Tiếng anh giúp trẻ phát triển tốt hơn ở những năm đầu đời</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"><img src="~/Content/img/backgrounds/blog3.jpg" /></a>
+                <br /><br />
+                <h2 class="blog-title"><a href="@Url.Action("DetailBlog","News")"> Thăng tiến nhanh nhờ giỏi tiếng Anh</a></h2>
+                <span class="blog-brief">Có tiếng Anh, bạn tự tin bước lên những nấc thang mới của sự nghiệp.</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"><img src="~/Content/img/backgrounds/blog4.jpg" /> </a>
+                <br /><br />
+                <h2 class="blog-title"><a href="@Url.Action("DetailBlog","News")">"Vũ khí" tiếng Anh giúp gì cho dân văn phòng?</a></h2>
+                <span class="blog-brief">Trong bối cảnh hội nhập toàn cầu hiện nay, tiếng Anh là yêu cầu bắt buộc đối với người lao động.</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"><img src="~/Content/img/backgrounds/blog5.jpg" /></a>
+                <br /><br />
+                <h2 class="blog-title"> <a href="@Url.Action("DetailBlog","News")">Thành công ngay từ phỏng vấn đầu tiên</a></h2>
+                <span class="blog-brief">Thành thạo tiếng Anh là một lợi thế giúp bạn trẻ gây ấn tượng tốt với nhà tuyển dụng.</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+            <div class="col-sm-6">
+                <a href="@Url.Action("DetailBlog","News")"> <img src="~/Content/img/backgrounds/blog6.jpg" /></a>
+                <br /><br />
+                <h2 class="blog-title"><a href="@Url.Action("DetailBlog","News")">Nổi ám ảnh mang tên thất nghiệp</a></h2>
+                <span class="blog-brief">Mỗi năm nước ta có 400.000 sinh viên tốt nghiệp nhưng rất nhiều người trong số đó thất nghiệp</span>
+                <p><i>10/10/2017</i></p>
+            </div>
+        </div>
+        <nav class="pagination">
+            <ul>
+                <li><a href="#">&laquo; Previous</a></li>
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li class="current"><strong>3</strong></li>
+                <li><a href="#">Next &raquo;</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="col-sm-3 blog-right">
+        <span style="color: #333333;font-weight:bold; font-size:15px;">ĐIỀN THÔNG TIN - NHẬN TƯ VẤN</span>
+        <br /><br />
+        <div class="form-info">
+            <p style="font-size:16px">Họ tên học viên</p>
+            <input type="text" style="padding: 8px 4px; border-radius: 10px;width:260px;" />
+            <br />
+            <p style="font-size:16px">Số điện thoại liên hệ</p>
+            <input type="text" style="padding: 8px 4px; border-radius: 10px;width:260px" />
+            <br />
+            <p style="font-size:16px">Email liên hệ</p>
+            <input type="text" style="padding: 8px 4px; border-radius: 10px;width:260px" />
+            <br />
+            <p style="font-size:16px">Nhu cầu học</p>
+            <input type="text" style="padding: 8px 4px; border-radius: 10px;width:260px" />
+            <br />
+            <div>
+                <button style="color:white;background-color:#82A800; text-align:center;padding:5px;border-radius: 10px;font-weight:bold">GỬI THÔNG TIN</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<style>
+    .blog-left {
+        padding: 2% 5%;
+    }
+
+    .blog-right {
+        padding-top: 2%;
+    }
+
+    .blog-title {
+        color: #82A800;
+        font-weight: 600;
+    }
+
+    .blog-brief {
+        font-size: 17px;
+    }
+
+    .form-info {
+        border-radius: 10px;
+        position: relative;
+        margin: 0px;
+        margin-right: 20px;
+        text-align: left;
+        background: rgba(222, 222, 222, 0.38);
+        padding: 40px 25px;
+        line-height: 150%;
+        border-width: 0px !important;
+        border-color: transparent !important;
+        color: rgb(52, 52, 52);
+    }
+</style>
