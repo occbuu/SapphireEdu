@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "View";
+}
+<div style="border: 2px solid #82A800; padding: 0.2%">
+    <div id="googleMap" style="width: auto; height: 400px; border: 2px solid"></div>
+</div>
+
+<div class="row">
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="~/Content/img/seo3-22-64.png" style="float: right" />
+            </div>
+            <div class="col-sm-7">
+                <h3 style="margin-top: 10%; color: #82A800">
+                    Bạn có thắc mắc ?
+                    <br />
+                    <span>van.phankhanhvn@gmail.com</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="~/Content/img/Speech_Bubbles-64.png" style="float: right" />
+            </div>
+            <div class="col-sm-7">
+                <h3 style="margin-top: 10%; color: #82A800">
+                    Gọi cho chúng tôi<br />
+                    <span>(0924) 997 166</span>
+                </h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="row">
+            <div class="col-sm-5">
+                <img src="~/Content/img/Fax_Machine-64.png" style="float: right" />
+            </div>
+            <div class="col-sm-7">
+                <h3 style="margin-top: 10%; color: #82A800">Fax</h3>
+            </div>
+        </div>
+    </div>
+</div>
+<table style="border: none; margin-top: 5%">
+    <tr style="background-color: white">
+        <td style="text-align: right; width: 35%; border: none">
+            <h1 style="color: #82A800; font-size: 230%; margin-bottom: 0px"><b>Gửi lời nhắn</b></h1><br />
+            <p style="margin-left: 8%">Nếu bạn có yêu cầu hay thắc mắc gì, hãy gửi một lời nhắn ngay bây giờ. Chúng tôi sẽ trả lời trong vòng 24 giờ !</p>
+        </td>
+        <td style="border: none"></td>
+        <td style="border: none">
+            <div class="row">
+                <div class="col-sm-4">
+                    <label>Tên của bạn *:</label>
+                </div>
+                <div class="col-sm-4">
+                    <label>Địa chỉ e-mail *:</label>
+                </div>
+                <div class="col-sm-4">
+                    <label>Tiêu đề:</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <input class="form-control" id="yourname" type="text">
+                </div>
+                <div class="col-sm-4">
+                    <input class="form-control" id="addressEmail" type="text">
+                </div>
+                <div class="col-sm-4">
+                    <input class="form-control" id="lbl_header" type="text">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <label>Địa chỉ e-mail *:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+            </div>
+            <button style="margin-top: 2%"type="button" class="btn btn-link">Gửi</button>
+        </td>
+    </tr>
+</table>
+
